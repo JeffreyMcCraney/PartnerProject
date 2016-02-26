@@ -1,0 +1,674 @@
+
+.partnerImage{
+  height: 100px;
+}
+
+.imFlash{
+  height: 65px;
+  padding-top: 15px;
+}
+
+.arborday{
+  padding-top: 35px;
+}
+
+.westminister{
+  padding-left: 25px;
+}
+
+.wgbh{
+  height: 60px;
+  padding-top: 10px;
+}
+
+
+.checkboxForm{
+  font-size: 20px;
+  font-family: 'GO-Book';
+  color: #999999;
+}
+
+#group_1328079080_1{
+  margin-top: 30px;
+}
+
+
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+html{
+  overflow-x: hidden;
+}
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: #e8e8e8;
+}
+
+h1, h2, h3 {
+  font-family: 'GO-Thin', sans-serif;
+  font-size: 50px;
+  color: #909090;
+  line-height: 62px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 58px;
+}
+h3 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #6A6969;
+}
+h4 {
+  font-family: 'GO-Book';
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #909090;
+  margin: 60px 0 30px;
+}
+p {
+  font-family: 'GO-Thin';
+  font-size: 18px;
+  line-height: 27px;
+  color: #747373;
+  margin-bottom: 20px;
+}
+p b {
+  font-family: 'GO-Book';
+}
+p.small {
+  font-family: 'GO-Book';
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #959898;
+  line-height: 15px;
+}
+strong {
+  font-family: 'GO-Book';
+  font-size: 16px;
+}
+
+a {
+    color: #00BFD7;
+    text-decoration: none;
+}
+.pats {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'GO-Book';
+    color: #757575;
+    white-space: nowrap;
+    margin: 30px 0 0 356px;
+}
+
+.btn {
+  border-radius: 2px;
+  font-family: 'GO-Bold';
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 20px 7px;
+  background: #FF5200;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #F24D00;
+}
+.btn-secondary {
+  background: #25C7CF;
+}
+.btn-secondary:hover {
+  background: #23BAC2;
+  color: #fff;
+}
+
+.form-control {
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  font-family: 'GO-Book';
+  height: auto;
+  padding: 18px 20px 15px;
+}
+
+
+#go-content {
+  background: #fff;
+}
+
+
+.navbar {
+  background: #e8e8e8;
+  height: 60px;
+}
+.navbar-brand {
+  position: absolute;
+  height: 110px;
+  width: 280px;
+  background: url('../img/go-logo-header.png') no-repeat 20px -14px;
+  background-image: -webkit-image-set(
+    url(../img/go-logo-header.png) 1x,
+    url(../img/go-logo-header@2x.png) 2x
+  );
+  background-image: image-set(
+    url(../img/go-logo-header.png) 1x,
+    url(../img/go-logo-header@2x.png) 2x
+  );
+}
+.navbar-default .navbar-nav>li>button {
+  font-family: 'Go-Book';
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #909090;
+}
+.navbar-default .navbar-nav>li>button:hover {
+  color: #25C7CF;
+}
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+}
+.navbar-default .navbar-nav>li>button.btn {
+  background: #25C7CF;
+  color: #fff;
+  padding: 10px 70px 10px 21px;
+  border-radius: 2px;
+  margin: 9px 0 0 15px;
+  /*-webkit-transition: all .1s ease;
+     -moz-transition: all .1s ease;
+       -o-transition: all .1s ease;
+      -ms-transition: all .1s ease;
+          transition: all .1s ease;*/
+}
+.navbar-default .navbar-nav>li>button.btn:hover {
+  background: #FF5200;
+}
+.navbar-collapse.in, .navbar-collapse.collapsing {
+  background-color: #eee;
+}
+.navbar-collapse.in .btn, .navbar-collapse.collapsing .btn {
+  text-align: left;
+  width: 180px;
+}
+
+
+.jumbotron {
+  /*background: url('../img/hero-boy.png') no-repeat top center;*/
+  height: 510px;
+  background: none;
+  margin-bottom: 0;
+}
+.jumbotron>figure {
+  position: absolute;
+  margin-top: -38px;
+  height: 500px;
+  width: 100%;
+  background: url('../img/hero-boy.png') no-repeat top center;
+  background-image: -webkit-image-set(
+    url(../img/hero-boy.png) 1x,
+    url(../img/hero-boy@2x.png) 2x
+  );
+  background-image: image-set(
+    url(../img/hero-boy.png) 1x,
+    url(../img/hero-boy@2x.png) 2x
+  );
+}
+.jumbotron .lettering {
+  margin-top: 50px;
+}
+.jumbotron p {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: 'GO-Thin', sans-serif;
+  color: #969696;
+  margin: 10px 0 0 150px;
+  white-space: nowrap;
+}
+.jumbotron .fader {
+  position: absolute;
+}
+/*#glenn-phone {
+  display: none;
+}*/
+
+#hero-glenn {
+  display: none;
+}
+#hero-glenn .jumbotron>figure {
+  background: url('../img/hero-glenn.png') no-repeat top center;
+  background-image: -webkit-image-set(
+    url(../img/hero-glenn.png) 1x,
+    url(../img/hero-glenn@2x.png) 2x
+  );
+  background-image: image-set(
+    url(../img/hero-glenn.png) 1x,
+    url(../img/hero-glenn@2x.png) 2x
+  );
+}
+#hero-glenn>.container {
+  background: #fff;
+  padding: 80px 0 60px;
+}
+#hero-glenn dt {
+  font-size: 27px;
+  line-height: 41px;
+  color: #747576;
+  font-family: 'GO-Thin';
+}
+#hero-glenn dd {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #232E37;
+  font-family: 'GO-Book';
+  padding-top: 40px;
+}
+#hero-glenn dd img {
+  display: block;
+  margin-top: 10px;
+}
+
+#hero-pat {
+  display: none;
+}
+#hero-pat .jumbotron>figure {
+  background: url('../img/pat-stu.jpg') no-repeat top center;
+  background-image: -webkit-image-set(
+    url(../img/pat-stu.jpg) 1x,
+    url(../img/pat-stu@2x.jpg) 2x
+  );
+  background-image: image-set(
+    url(../img/pat-stu.jpg) 1x,
+    url(../img/pat-stu@2x.jpg) 2x
+  );
+}
+
+#hero-pat .jumbotron p {
+    font-size: 24px;
+    text-transform: none;
+    font-family: 'GO-Thin', sans-serif;
+    color: #666666;
+    margin: 30px 0 0 120px;
+    white-space: nowrap;
+}
+
+#hero-pat .jumbotron p .pats {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'GO-Bold', sans-serif;
+  color: #666666;
+  white-space: nowrap;
+  margin: 40px 0 0 200px;
+}
+
+#hero-pat>.container {
+  background: #fff;
+  padding: 80px 0 60px;
+}
+#hero-pat dt {
+  font-size: 27px;
+  line-height: 41px;
+  color: #747576;
+  font-family: 'GO-Thin';
+}
+#hero-pat dd {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #232E37;
+  font-family: 'GO-Book';
+  padding-top: 40px;
+}
+#hero-pat dd img {
+  display: block;
+  margin-top: 10px;
+}
+
+
+.banner-go {
+  background: #25C7CF;
+  margin: 10px -35px;
+  border-radius: 2px;
+  padding: 20px 0;
+  text-align: center;
+}
+.banner-go dl {
+  margin: 0;
+}
+.banner-go dt, .banner-go dd {
+  display: inline-block;
+}
+.banner-go dt {
+  padding-right: 20px;
+}
+.banner-go dt p {
+  margin: 0;
+  color: #fff;
+  font-family: 'GO-Thin';
+  font-size: 24px;
+}
+.banner-go input {
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'GO-Book';
+  color: #9B9B9B;
+  border: none;
+  padding: 10px 10px 7px 18px;
+  outline: none;
+  width: 166px;
+}
+.banner-go button {
+  margin: -3px 0 0 -10px;
+  border-radius: 0 2px 2px 0;
+}
+
+
+.circle {
+  background: #FF5200;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+#section-go {
+  margin: 40px 0;
+}
+#section-go .circle {
+  margin: 26px 0 0 30px;
+}
+.go-box-area {
+  padding: 70px 0 0 40px;
+}
+.go-box-area .go-logo {
+  position: absolute;
+  margin: 46px 0 0 -53px;
+  z-index: 4;
+}
+.go-box-area .go-top {
+  position: absolute;
+  margin: -6px 0 0 2px;
+  z-index: 3;
+}
+.go-box-area .go-box {
+  position: absolute;
+}
+.go-box-area .go-shadow {
+  position: absolute;
+  margin: 160px 0 0 0;
+  z-index: 2;
+}
+.go-line {
+  position: absolute;
+  z-index: 5;
+  margin: 100px 0 0 132px;
+}
+.go-line div {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: solid 1px #FF5200;
+}
+.go-line div:first-child {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  margin: -10px 0 0 -10px;
+  opacity: .3;
+}
+.go-line span {
+  height: 2023px;
+  position: absolute;
+  z-index: 6;
+  width: 2px;
+  background: #FF5200;
+  display: block;
+  margin: 0 0 0 25px;
+}
+.go-line p {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  writing-mode: tb-rl;
+  color: #FF5200;
+  font-size: 13px;
+  margin: 150px 0 0 -20px;
+}
+
+
+#section-savings>div>div:first-child {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#section-savings>div {
+  padding: 60px 0 40px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f5f5+0,ffffff+100&amp;1+0,0+100 */
+  background: -moz-linear-gradient(top,  rgba(245,245,245,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,245,245,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(245,245,245,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(245,245,245,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(245,245,245,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(245,245,245,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+  /*background: #aaa;*/
+
+}
+#section-savings .fine-print {
+  margin-top: 105px
+}
+
+
+.section-banner-small {
+  position: relative;
+  z-index: 10;
+}
+
+
+#section-package>div:first-child {
+  margin-top: -46px;
+}
+#section-package>div>div:first-child {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#section-package>div {
+  padding: 80px 0;
+  background: #f6f6f6;
+}
+
+
+
+#section-package .go-title p{
+  text-transform: uppercase;
+  font-family: 'GO-Book';
+  font-size: 15px;
+  color: #949797;
+  white-space: nowrap;
+}
+.go-no, .go-yes {
+  height: 80px;
+}
+.go-no {
+  width: 110px;
+  background: url('../img/icon-no.png') no-repeat center 5px;
+  background-image: -webkit-image-set(
+    url(../img/icon-no.png) 1x,
+    url(../img/icon-no@2x.png) 2x
+  );
+  background-image: image-set(
+    url(../img/icon-no.png) 1x,
+    url(../img/icon-no@2x.png) 2x
+  );
+}
+.go-yes {
+  width: 70px;
+  background: url('../img/icon-yes.png') no-repeat center 5px;
+  background-image: -webkit-image-set(
+    url(../img/icon-yes.png) 1x,
+    url(../img/icon-yes@2x.png) 2x
+  );
+  background-image: image-set(
+    url(../img/icon-yes.png) 1x,
+    url(../img/icon-yes@2x.png) 2x
+  );
+}
+#go-yes-bg {
+  background: #fff;
+  border-radius: 100px;
+  width: 92px;
+  height: 720px;
+  display: block;
+  position: absolute;
+  margin: -27px 0 0 -12px;
+}
+.open-dot {
+  display: block;
+  border: solid 1px #FF5200;
+  height: 20px;
+  width: 20px;
+  background: #fff;
+  border-radius: 30px;
+  margin: 27px 0 0 42px;
+  position: absolute;
+  z-index: 5;
+}
+
+
+
+#section-consultation {
+  padding: 80px 0 360px;
+  background: url('../img/family.png') no-repeat bottom center;
+  background-image: -webkit-image-set(
+    url(../img/family.png) 1x,
+    url(../img/family@2x.png) 2x
+  );
+  background-image: image-set(
+    url(../img/family.png) 1x,
+    url(../img/family@2x.png) 2x
+  );
+}
+#section-consultation h2, #section-consultation p {
+  text-align: center;
+}
+#section-consultation p {
+  margin-bottom: 70px;
+}
+#section-consultation .btn {
+  width: 100%;
+  padding: 18px 20px 15px;
+  font-size: 18px;
+  margin: 40px 0;
+  background: #25C7CF;
+}
+#section-consultation .btn:hover {
+  background: #23BAC2;
+}
+#section-consultation i, #section-consultation p.small {
+  padding-left: 45px;
+  display: block;
+  font-style: normal;
+  font-size: 10px;
+  font-family: 'GO-Book';
+  margin-bottom: 40px;
+  color: #909090;
+  background: url('../img/icon-lock.png') no-repeat top left;
+  background-image: -webkit-image-set(
+    url(../img/icon-lock.png) 1x,
+    url(../img/icon-lock@2x.png) 2x
+  );
+  background-image: image-set(
+    url(../img/icon-lock.png) 1x,
+    url(../img/icon-lock@2x.png) 2x
+  );
+}
+#section-consultation p.small {
+  background: none;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+
+#section-faq {
+  margin: 80px 0;
+}
+#section-faq .circle {
+  height: 20px;
+  width: 20px;
+  margin-top: 25px;
+}
+#section-faq strong {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-right: 5px;
+}
+
+
+footer {
+  background: #606060;
+  text-align: center;
+  padding: 80px 0;
+}
+footer img {
+  display: block;
+  margin: 0 auto 80px;
+}
+footer .btn {
+  font-size: 20px;
+  font-family: 'GO-Book';
+  padding: 20px 130px 16px 20px;
+  margin-bottom: 80px;
+}
+footer p {
+  color: #999;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'GO-Book';
+  /*text-align: left;*/
+  line-height: 16px;
+}
+
+#Error, #Confirmation {
+  text-align: center;
+}
+#Error p, #Confirmation p {
+  color: #E64D59;
+  display: inline-block;
+  padding-left: 55px;
+  line-height: 40px;
+  margin-bottom: 30px;
+  background: url('../img/band-aid.png') no-repeat 0px 0px;
+  background-image: -webkit-image-set(
+    url(../img/band-aid.png) 1x,
+    url(../img/band-aid@2x.png) 2x
+  );
+  background-image: image-set(
+    url(../img/band-aid.png) 1x,
+    url(../img/band-aid@2x.png) 2x
+  );
+}
+#Confirmation {
+  background: #fff;
+  border-radius: 2px;
+  padding: 30px 20px 0;
+}
+#Confirmation p {
+  color: #4BC6A0;
+  background: url('../img/form-success.png') no-repeat 0px 0px;
+  background-image: -webkit-image-set(
+    url(../img/form-success.png) 1x,
+    url(../img/form-success@2x.png) 2x
+  );
+  background-image: image-set(
+    url(../img/form-success.png) 1x,
+    url(../img/form-success@2x.png) 2x
+  );
+}
+
+.fadeInBlock {
+    opacity:0;
+}

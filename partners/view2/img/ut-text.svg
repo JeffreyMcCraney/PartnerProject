@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="671" height="232" viewBox="0 0 671 232">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 90px;
+        font-family: "Alternate Gothic No3 D";
+      }
+
+      .cls-1 {
+        fill: #ff5200;
+      }
+
+      .cls-2 {
+        fill: #00bfd7;
+      }
+    </style>
+  </defs>
+  <text id="HELLO_UTAH_" data-name="HELLO UTAH!" class="cls-1" x="-0.137" y="9.27">HELLO UTAH!</text>
+  <text id="GOODBYE_OVERPRICED_POWER_BILLS." data-name="GOODBYE OVERPRICED POWER BILLS." class="cls-2" x="-0.137" y="93.4">GOODBYE OVERPRICED POWER BILLS.</text>
+</svg>

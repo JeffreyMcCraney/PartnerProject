@@ -1,0 +1,659 @@
+@media (min-width: 1200px) {
+  .jumbotron p {
+      margin-left: 0px;
+      font-size: 24px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .enviornment {
+  margin-left: 0px;
+  margin-top: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ut {
+    background-image: url(../img/ut-section-m.jpg);
+    height: 746px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: -184px;
+  }
+  .utKid {
+    background-image: url(../img/utKid-med.jpg);
+    height: 460px; 
+    background-position: left;
+    background-position-x: -60px;
+  }
+  .mountains {
+    position: relative;
+    background: #000 url(../img/mountains.jpg);
+    height: 1210px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+
+  .wallet {
+    padding: 83px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-brand {
+    margin-left: 5px;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+    margin-top: 24px;
+    margin-right: 25px;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-default .navbar-nav>li>a {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+    min-width: 100px;
+    padding: 10px 10px 10px 19px;
+    margin-left: 15px;
+    color: #909090;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+  .navbar-collapse.in {
+    overflow-y: auto !important;
+  }
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  .navbar-nav .open .dropdown-menu>li>a, .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #999;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, 
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #fff;
+    background-color: transparent;
+    background-image:none;
+  }
+  .jumbotron, .jumbotron>figure {
+    height: 600px;
+  }
+  .jumbotron h1 {
+      margin-top: 137px;
+      margin-left: 50px;
+      font-size: 70px;
+      line-height: 74px;
+  }
+  .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .jumbotron h3 {
+    font-size: 42px;
+    line-height: 55px;
+    margin-top: 90px;
+  }
+
+  .utKid {
+      background-image: url(../img/utKid-med.jpg);
+      height: 460px; 
+      background-position: left;
+      background-position-x: -60px;
+  }
+  #section-consultation h2 {
+    text-align: center;
+    color: #FF5200;
+    font-family: "IntCircularProWeb-Black", sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-top: 61px;
+}
+  .wood {
+    background-image: url(../img/wood-med.png);
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .go {
+    background-image: url(../img/wood-logo-med.png);
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .peoples {
+    background-image: url(../img/peoples-medium.png);
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .go-header {
+    margin-top: 20px;
+  }
+  .page-footer p, body > footer p {
+    padding: 0 25px 0 25px;
+  }
+  .page-footer p.copyright, body > footer p.copyright {
+    line-height: 14px;
+    margin: 40px 0 0 0;
+    padding: 0 25px 0 25px;
+}
+  
+  .text {
+    padding-top: 20%;
+    padding-left: 12%;
+  }
+  .row h3 {
+    font-size: 42px;
+  }
+  .row p {
+    font-family: "IntCircularProWeb-Thin", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #747373;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  h1, h2, h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  #section-consultation {
+    height: 1070px;
+    background: url('../img/background_btm.svg') no-repeat bottom right;
+    background-image: -webkit-image-set( url(../img/background_btm.svg) 1x, url(../img/background_btm.svg) 2x );
+    background-image: image-set( url(../img/background_btm.svg) 1x, url(../img/background_btm.svg) 2x );
+    background-size: cover;
+  }
+
+  .container-fluid .jumbotron {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .navbar-brand {
+    margin-left: 5px;
+}
+  .navbar-default .navbar-nav > li > a {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+    min-width: 100px;
+    padding: 10px 10px 10px 19px;
+    margin-left: 15px;
+    color: #909090;
+  }
+  .navbar-default .navbar-nav>li>a.btn {
+    padding: 10px 25px 10px 21px;
+    margin: 9px 28px 0 30px;
+    background: #00BFD7;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #00BFD7;
+    color: #ffffff;
+}
+  .dropdown-menu {
+    position: absolute;
+    left: 0px;
+    display: none;
+    min-width: 80px;
+    padding: 0px 0px 0px 0px;
+    font-size: 8px;
+}
+  .jumbotron {
+    height: 500px;
+    background-position-x: -70px;
+  }
+  .jumbotron h1 {
+    margin-top: 51px;
+    margin-left: 20px;
+    font-size: 70px;
+    line-height: 74px;
+  }
+
+  .jumbotron .lettering {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .productBlock {
+    margin-top: 30px;
+  }
+
+  .jumbotron h3 {
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 60px;
+  }
+  .mountains {
+    position: relative;
+    height: 1400px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+  .widget {
+    font-family: "IntCircularProWeb-Light", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+    height: 160px;
+}
+
+.checkMark {
+    background: url(../img/checkMark.png) no-repeat left top;
+    padding: 1px 0 30px 40px;
+    font-size: 18px;
+  }
+  .ut {
+  background-image: url(../img/ut-section-plus.png);
+  height: 600px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .wallet {
+    font-family: "IntCircularProWeb-Book", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #666666;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+.navbar-brand {
+    margin-left: 25px;
+}
+.benefits {
+    list-style-type: none;
+    margin-top: 40px;
+    -webkit-padding-start: 0px;
+}
+.ski {
+    font-family: "IntCircularProWeb-Book", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #666666;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.wood {
+    background-image: url(../img/wood-med.png);
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .go {
+    background-image: url(../img/wood-logo-med.png);
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .peoples {
+    background-image: url(../img/peoples-medium.png);
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .jumbotron h1 {
+    margin-top: 0px; 
+  }
+ 
+  /*.go-header {
+       margin-top: 30px; 
+  }*/
+  .navbar>.container-fluid .navbar-brand {
+    margin-left: 30px;
+  }
+  .navbar-right {
+    float: right!important;
+    margin-right: 30px;
+  }
+  .navbar>.container .navbar-brand {
+    margin-left: 10px; 
+  }
+}
+
+
+@media (max-width : 736px) {
+  .productBlock {
+    margin-top: 30px;
+  }
+  .jumbotron .lettering {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 75%;
+  }
+  .row p {
+    font-family: "IntCircularProWeb-Thin", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #747373;
+    margin-bottom: 20px;
+    margin-right: 47%;
+    width: 92%;
+  }
+  .mountains {
+    position: relative;
+    background: #000 url(../img/mountain-med.png) bottom;
+    height: 1850px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+  .mountSpace {
+    margin-top: 30px;
+  }
+  .widget {
+    font-family: "IntCircularProWeb-Light", sans-serif;
+    font-size: 19px;
+    line-height: 36px;
+    color: #666666;
+    height: 100%;
+  }
+  .ski {
+    font-family: "IntCircularProWeb-Book", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #666666;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 100px;
+  }
+  #section-consultation {
+    height: 950px;
+    background: url('../img/background_btm.svg') no-repeat bottom right;
+    background-image: -webkit-image-set( url(../img/background_btm.svg) 1x, url(../img/background_btm.svg) 2x );
+    background-image: image-set( url(../img/background_btm.svg) 1x, url(../img/background_btm.svg) 2x );
+    background-size: cover;
+  }
+  .wallet {
+    font-family: "IntCircularProWeb-Book", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #666666;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding-top: 0px;
+  }
+  #consultation-text {
+    font-family: "IntCircularProWeb-Light", sans-serif;
+    text-align: center;
+    font-size: 21px;
+    line-height: 39px;
+    color: #747373;
+    padding-bottom: 0px;
+    padding-top: 20px; 
+    margin-bottom: 60px;
+    max-width: 100%; 
+}
+}
+@media (max-width: 600px) {
+  h1, h2, h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .jumbotron {
+    height: 550px;
+    background-position-x: -120px;
+}
+  .jumbotron h1 {
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size: 70px;
+    line-height: 74px;
+}
+  .navbar-toggle {
+    margin-top: 25px;
+    margin-right: 30px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+    min-width: 100px;
+    padding: 10px 10px 10px 19px;
+    margin-left: 15px;
+    color: #909090;
+  }
+  .dropdown-menu {
+    position: relative;
+    left: 0px;
+    display: none;
+    min-width: 80px;
+    padding: 0px 0px 0px 0px;
+    font-size: 10px;
+  }
+  .mountains {
+    position: relative;
+    background: #000 url(../img/mountains-small.jpg);
+    height: 2000px;
+    margin-top: 100px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+  #section-consultation h2 {
+    text-align: center;
+    color: #FF5200;
+    font-family: "IntCircularProWeb-Black", sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+  }
+  #consultation-text {
+    font-family: "IntCircularProWeb-Light", sans-serif;
+    max-width: 585px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    color: #747373;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  .navbar-brand {
+    margin-left: 15px;
+  }
+
+  .ut {
+    background-image: url(../img/ut-section-m.jpg);
+    height: 226px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  #go-content {
+    background: #fff;
+    padding: 15px 10px 0px 10px;
+  }
+  .widget {
+    font-family: "IntCircularProWeb-Light", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #666666;
+    height: 120px;
+  }
+  .wallet {
+    font-family: "IntCircularProWeb-Book", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #666666;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .productBlock {
+    margin-top: 30px;
+  }
+  .mountains h3 {
+    text-align: center;
+    font-family: "IntCircularProWeb-Medium", sans-serif;
+    font-size: 32px;
+    line-height: 63px;
+    color: #757575;
+}
+.wood {
+    background-image: url(../img/wood-small.png);
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .go {
+    background-image: url(../img/wood-logo-small.png);
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .peoples {
+    background-image: url(../img/peoples-small.png);
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .page-footer article header, body > footer article header {
+    color: #9e9b90;
+    font-size: 14px;
+    font-family: "IntCircularProWeb-Light";
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+  }
+  .page-footer p.copyright, body > footer p.copyright {
+    line-height: 14px;
+    margin: 40px 5px 0 14px;
+    padding: 0;
+  }
+  .page-footer p, body > footer p {
+    color: #9e9b90;
+    font-size: 10px;
+    margin-top: 10px;
+    padding-left: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .headingCompany{
+    margin-top: 15px;
+  }
+  .jumbotron {
+    height: 470px;
+    background-position-x: -212px;
+  }
+
+  .jumbotron h1 {
+    margin-top: 57px;
+  }
+  .jumbotron .lettering {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 95%;
+  }
+  .consultation-text {
+    width: 100%
+  }
+  .widget {
+    font-family: "IntCircularProWeb-Light", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+    height: 100%;
+}
+  .mountains {
+    height: 2000px;
+  }
+  .row p {
+    width: 100%;
+  }
+  .wood {
+    background-image: url(../img/wood-small.png);
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .go {
+    background-image: url(../img/wood-logo-small.png);
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .peoples {
+    background-image: url(../img/peoples-small.png);
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+}
+@media (max-width: 320px){
+.mountains {
+    height: 2320px;
+}
+.go {
+  display: none;
+}
+.peoples {
+    width: 100%;
+}
+.page-footer p.copyright, body > footer p.copyright {
+    line-height: 14px;
+    margin: 0px 25px 0 25px;
+    padding: 0;
+}
+}
