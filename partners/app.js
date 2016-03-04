@@ -4,12 +4,15 @@
 angular.module('myApp', [
   'ngRoute',
   'firebase',
+  'angular-loading-bar',
   'myApp.home',
   'myApp.view2',
   'myApp.view3',
   'myApp.version'
 ]).
-config(['$routeProvider', function($routeProvider) {
+config(['$routeProvider','cfpLoadingBarProvider', function($routeProvider, cfpLoadingBarProvider) {
+  cfpLoadingBarProvider.latencyThreshold = 1;
+  
   $routeProvider
   .when('/home', {
     templateUrl: 'home/home.html',
