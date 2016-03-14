@@ -26,7 +26,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-<body ng-controllers="View2Ctrl" ng-cloak>
+<body ng-controllers="View2Ctrl">
    <!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MCBKQD"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -59,8 +59,8 @@
     <div class="jumbotron">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
-                  <div class="headingCompany">Hello {{data.company}}.</div>
-                  <div class="headingSub">Goodbye expensive power bills.</div>
+                  <div class="headingCompany">{{data.header}}</div>
+                  <div class="headingSub">{{data.subHeader}}</div>
                     
                 </div>
             </div>
@@ -73,7 +73,7 @@
             
             <div class="col-md-5 col-sm-6">
                   <h3 class="go-header">A NEW WAY TO POWER YOUR HOME.</h3>
-                  <p>{{data.company}} is partnering up with Vivint Solar's GO program to help you save money.  With GO, you don't only save money on clean energy, but you'll receive {{data.offer}} upon installation of a solar system.</p>
+                  <p>{{data.introBlurb}}</p>
                 
                   <button class="btn go-btn">START SAVING</button>
                 </div>
@@ -84,22 +84,22 @@
   <div class="container-fluid">
     <div class= "mountains">
       <div class="center-block">
-                <h3 class="text-uppercase">Why GO Solar</h3>
+                <h3 class="text-uppercase">Why GO Solar™</h3>
                 <div class="col-md-6 col-md-offset-3">
-                <p class="text-center">{{data.company}} is choosing to GO Solar to help build a cleaner planet. Here's a few reasons why you should GO Solar.</p></div>
+                <p class="text-center">Going solar helps build a cleaner planet. Here's a few more reasons why you should GO Solar™.</p></div>
               </div>
         <div class="container mountSpace">
           <div class="row-fluid">
             <div class="hidden-xs">
               <div class="col-md-4 col-sm-6">
-              <button class="productBlock dropdown-toggle" href="#lease">Save Money<p class="productFeature">Instant savings. Zero down.</p></button>
+              <button class="productBlock dropdown-toggle" href="#lease">Save Money<p class="productFeature"></p></button>
               <div class="panel-collapse collapse in" >
                 <div class="well">
-                  <p class="widget">Get all the clean energy you need without any of the upfront costs. We’ll custom design a solar power system for your home. You just make affordable monthly payments, and the power it produces is yours.</p>
+                  <p class="widget">Get the clean energy you need without any of the upfront costs. We’ll custom design a solar power system for your home. You just make affordable monthly payments, and the power the system produces is yours.</p>
                    <ul class="benefits">
-                    <li class="checkMark">$0 upfront costs*</li>
+                    <li class="checkMark">No upfront costs*</li>
                     <li class="checkMark">Low monthly bill</li>
-                    <li class="checkMark">10-30% monthly savings</li>
+                    <li class="checkMark">Save 10–40% on your power!**</li>
                   </ul>
                 </div>
               </div>
@@ -107,14 +107,14 @@
         </div>
         <div class="visible-xs">
           <div class="col-md-4 col-sm-6">
-              <button class="productBlock dropdown-toggle" data-toggle="collapse" href="#lease">Save Money<p class="productFeature">Instant savings. Zero down.</p></button>
+              <button class="productBlock dropdown-toggle" data-toggle="collapse" href="#lease">Save Money<p class="productFeature"></p></button>
               <div class="panel-collapse collapse in" id="lease">
                 <div class="well">
-                  <p class="widget">Get all the clean energy you need without any of the upfront costs. We’ll custom design a solar power system for your home. You just make affordable monthly payments, and the power it produces is yours.</p>
+                  <p class="widget">Get the clean energy you need without any of the upfront costs. We’ll custom design a solar power system for your home. You just make affordable monthly payments, and the power the system produces is yours.</p>
                    <ul class="benefits">
-                    <li class="checkMark">$0 upfront costs*</li>
+                    <li class="checkMark">No upfront costs*</li>
                     <li class="checkMark">Low monthly bill</li>
-                    <li class="checkMark">10-30% monthly savings</li>
+                    <li class="checkMark">Save 10–40% on your power!**</li>
                   </ul>
                 </div>
               </div>
@@ -122,13 +122,14 @@
         </div>
         <div class="hidden-xs">
         <div class="col-md-4 col-sm-6">
-            <button class="productBlock dropdown-toggle" href="#loan">Free Gift Card<p class="productFeature">Perks for being a friend of {{data.company}}</p></button>
+            <button class="productBlock dropdown-toggle" href="#loan">{{data.boxTitle}}<p class="productFeature">{{data.boxSubtitle}}</p></button>
             <div class="panel-collapse collapse in" >
               <div class="well shortWell">
-                <p class="widget">Take advantage of being a friend of {{data.company}} and receive a free {{data.offer}} gift card on us.  It's our way of saying "Thanks."</p>
+                <p class="widget">{{data.boxParagraph}}</p>
                 <ul class="benefits">
-                    <li class="checkMark">Free {{data.offer}} gift card</li>
-                    <li class="checkMark">Free installation. Free gift card.</li>
+                    <li class="checkMark">{{data.boxBulletPoint1}}</li>
+                    <li class="checkMark">{{data.boxBulletPoint2}}</li>
+                    <li ng-show="bulletPoint" class="checkMark">{{data.boxBulletPoint3}}</li>
                   </ul>
               </div>
             </div>
@@ -136,13 +137,14 @@
         </div>
         <div class="visible-xs">
           <div class="col-md-4 col-sm-6">
-              <button class="productBlock dropdown-toggle" data-toggle="collapse" href="#loan">Free Gift Card<p class="productFeature">Perks for being a friend of Vasa</p></button>
+              <button class="productBlock dropdown-toggle" data-toggle="collapse" href="#loan">{{data.boxTitle}}<p class="productFeature">{{data.boxSubtitle}}</p></button>
               <div class="panel-collapse collapse in" id="loan">
                 <div class="well">
-                  <p class="widget">Take advantage of being a friend of {{data.company}} and receive a free {{data.offer}} gift card on us.  It's our way of saying "Thanks."</p>
+                  <p class="widget">{{data.boxParagraph}}</p>
                    <ul class="benefits">
-                    <li class="checkMark">Free {{data.offer}} gift card</li>
-                    <li class="checkMark">Free installation. Free gift card.</li>
+                    <li class="checkMark">{{data.boxBulletPoint1}}</li>
+                    <li class="checkMark">{{data.boxBulletPoint2}}</li>
+                    <li ng-show="bulletPoint" class="checkMark">{{data.boxBulletPoint3}}</li>
                   </ul>
                 </div>
               </div>
@@ -182,6 +184,7 @@
 
 </div>
 <p class="discliamer"><small>*For qualified customers and subject to availability</small></p>
+<p class="discliamer"><small>**Customers typically save 10% to 40% each year with Vivint Solar’s lease agreement relative to their current utility electricity rates. Rate savings is based on an average of Vivint Solar customers across the United States.  Individual savings will vary by utility, system production, usage habits, product type and other factors.  Lease agreements are not available in all markets.</small></p>
 </div>
         
       <div class="container-fluid">
@@ -229,7 +232,7 @@
               <button type="submit" class="btn btn-secondary" id="Submit" data-eventcatagory="form" data-eventaction="click" data-eventlabel="form-submit">Contact Me</button>
             </div>
             <div class="col-md-10 col-md-offset-1">
-              <p class="small">By clicking this button, you consent for Vivint Solar to use automated technology to contact you at the number provided. This consent is not required to make a purchase from us. Your information is safe with us. We will never sell or share your information with 3rd parties.</p>
+              <p class="small">By clicking this button, you consent for Vivint Solar to use automated technology to contact you at the number provided. This consent is not required to make a purchase from us. Your information is safe with us.</p>
             </div>
           </form>
         </div>
@@ -245,7 +248,7 @@
       <div class="page-footer">
         <main class="container">
           
-          <p class="copyright">Copyright © 2015 Vivint Solar Inc. All rights reserved.</p><p class="copyright"> Vivint Solar Developer, LLC (EIN:  80‐0756438) is a licensed contractor in each state in which we operate, for information about our licenses please visit our<a href="http://www.vivintsolar.com/en/licenses"> contractor licenses page</a></p>
+          <p class="copyright">Copyright © 2016 Vivint Solar Inc. All rights reserved.</p><p class="copyright"> Vivint Solar Developer, LLC (EIN:  80‐0756438) is a licensed contractor in each state in which we operate, for information about our licenses please visit our<a target="_blank" href="http://www.vivintsolar.com/en/licenses"> contractor licenses page (http://www.vivintsolar.com/en/licenses)</a></p>
           <p><a target="_blank" href="http://www.vivintsolar.com/en/terms-of-use">Terms of Use</a><a target="_blank" href="http://www.vivintsolar.com/en/privacy-policy">Privacy Policy</a><a href="http://www.vivintsolar.com/en/solar-insurance" target="_blank">Insurance</a></p>
         </main>
       </div>

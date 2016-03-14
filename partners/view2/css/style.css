@@ -1,7 +1,4 @@
 /* My Styling */
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-  display: none !important;
-}
 
 
 .headingCompany{
@@ -237,7 +234,7 @@ form-control {
   position: absolute;
   height: 80px;
   width: 170px;
-  background: url('../img/go-logo-header.svg') no-repeat 5px 9px;;
+  background: url('../img/go-vs-logo.svg') no-repeat 5px 9px;;
 }
 .navbar-default .navbar-nav>li>a {
     font-family: "IntCircularProWeb-Book", sans-serif;
